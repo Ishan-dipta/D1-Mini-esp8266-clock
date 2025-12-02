@@ -80,7 +80,8 @@ Both share the same bus.
 
 * One side → D6
 * Other side → GND
-
+#Power
+*I am using a AMS117 regualator to power all the components, I am using the onboard regulator of the d1 mini to power it.
 # How It Works
 
 * On boot, a four-dot animation plays while the DS3231 is read.

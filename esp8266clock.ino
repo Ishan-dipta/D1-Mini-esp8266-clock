@@ -18,12 +18,12 @@
 #define WIFI_SWITCH_PIN D6
 
 // WiFi credentials — CHANGE THESE
-const char* ssid = "Redmi 13 5G";
-const char* password = "19902005";
+const char* ssid = "YOU WIFI SSID";
+const char* password = "YOUR WIFI PASSWORD";
 
 // NTP Client Setup
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "pool.ntp.org", 19800, 60000); // IST = +5:30
+NTPClient timeClient(ntpUDP, "pool.ntp.org", 19800, 60000); // IST = +5:30 (THIS IS FOR INDIA AS I RESIDE IN INDIA, PLEASE CHANGE ACCORDING TO YOUR LOCATION)
 
 // Instances
 RTC_DS3231 rtc;

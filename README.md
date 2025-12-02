@@ -90,6 +90,7 @@ Both share the same bus.
 * Pressing the WiFi button enables WiFi, fetches NTP time, updates the RTC, and disables WiFi, this is useful to set time to a new
 * RTC and then in future correct RTC drifts using a single button press.
 * The OLED only updates when necessary using a dirty flag system.
+* There is a blinking colon in between the hours and minutes like this HH:MM, this provides a nice look and also is a good        * indicator if the loop is working properly.
 
 
 # License
